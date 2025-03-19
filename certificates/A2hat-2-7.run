@@ -1,0 +1,21 @@
+Using random seed 1739532673 and the finite field with 127 elements
+In the ambient space P^2 x P^7, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{y_1 = y_2 = y_3 = y_6 = y_7 = 0}
+{y_4 = y_5 = y_6 = y_7 = 0}
+and double points supported at
+([107   9   5], [119  60  74  76 100 118   1  43])
+([ 5 14 26], [ 68  81  34 124  36  89 114 118])
+([ 2  1 75], [ 75  61  70  14 117  98  93  18])
+([94  1 32], [76  0  0  0 97  6  0  0])
+([110 113  46], [ 69   0   0   0  93 100   0   0])
+([76 69 84], [97  0  0  0 64 52  0  0])
+([56  6 15], [109  63  95  69   0   0   0   0])
+([56 82 71], [ 19  44  40 113   0   0   0   0])
+([83 72 68], [112  60  51  99   0   0   0   0])
+([67 39 70], [ 19  86 119  12   0   0   0   0])
+([125  36   0], [111   0   0   0   0   0   0   0])
+The 63 x 66 matrix was built in 0.0133043 s.
+Computing the rank of the 63 x 66 matrix took 0.00973615 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.023257 s.

@@ -1,0 +1,16 @@
+Using random seed 1738187985 and the finite field with 127 elements
+In the ambient space P^2 x P^4, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{x_1 = x_2 = y_3 = y_4 = 0}
+and double points supported at
+([ 16 110  21], [ 71  96  82   5 125])
+([79 92 78], [44 43 51 50 53])
+([97 56 48], [57 82 74 19 50])
+([38 31 85], [116  59  66  94  12])
+([110   0   0], [ 15 106  78   0   0])
+([120   0   0], [44 54 66  0  0])
+([53  0  0], [70 66 97  0  0])
+The 39 x 44 matrix was built in 0.0494281 s.
+Computing the rank of the 39 x 44 matrix took 0.00149971 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (SUPERABUNDANT).
+The entire computation took 0.0513569 s.

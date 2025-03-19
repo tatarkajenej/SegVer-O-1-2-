@@ -1,0 +1,14 @@
+Using random seed 1739287974 and the finite field with 127 elements
+In the ambient space P^2 x P^5, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{x_1 = x_2 = y_1 = y_2 = 0}
+{y_3 = y_4 = 0}
+{y_5 = 0}
+and double points supported at
+([37 14 57], [111   1  99   0   0  42])
+([84 56 74], [86 16 52 47 26  0])
+([10 89 83], [ 48 106  89   0  22   0])
+The 4 x 4 matrix was built in 0.00094325 s.
+Computing the rank of the 4 x 4 matrix took 5.306e-05 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.00694444 s.

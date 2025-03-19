@@ -1,0 +1,15 @@
+Using random seed 1738187985 and the finite field with 127 elements
+In the ambient space P^2 x P^4, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{x_1 = x_2 = y_1 = y_2 = 0}
+{y_3 = y_4 = 0}
+and double points supported at
+([ 79 120  92], [78 44 44 43 51])
+([38 31 85], [116  59  66  94  12])
+([48  0  0], [57  0  0 82 74])
+([ 19  50 110], [ 15 106  78   0   0])
+([54 50 66], [53 97 56  0  0])
+The 22 x 24 matrix was built in 0.0490109 s.
+Computing the rank of the 22 x 24 matrix took 0.000483671 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.0497368 s.

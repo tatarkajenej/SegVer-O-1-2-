@@ -1,0 +1,23 @@
+Using random seed 1739532675 and the finite field with 127 elements
+In the ambient space P^2 x P^13, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{y_1 = y_2 = y_3 = y_4 = y_5 = y_8 = y_9 = y_12 = y_13 = 0}
+{y_6 = y_7 = y_8 = y_9 = 0}
+{y_10 = y_11 = y_12 = y_13 = 0}
+and double points supported at
+([125  11  96], [108 122  93 111  30 104   0   0   0   0 116 103  25  20])
+([84 27  8], [ 86  27  32  50  85  91   0   0   0   0  41  52  66 122])
+([ 28  45 110], [ 71  74 109  59  22  39   0   0   0   0  62  70 106  94])
+([ 48 117 118], [73  0  0  0  0  0  0  0  0  0 11 75  0  0])
+([ 46 110  34], [ 57   0   0   0   0   0   0   0   0   0 114  15   0   0])
+([114  23  25], [39  0  0  0  0  0  0  0  0  0 42 21  0  0])
+([116  88  37], [ 81  35  72 116  12  33  78  83 117  45   0   0   0   0])
+([126 126  94], [ 53  11  18 119  98 111  64  16   0  77   0   0   0   0])
+([ 40 101  89], [124  46  99  90  83  54   5 116  64 120   0   0   0   0])
+([61 52 11], [125   0   0   0   0   0  55  41   0   0   0   0   0   0])
+([ 9 17 58], [92  0  0  0  0  0 11 24  0  0  0  0  0  0])
+([81 50 20], [24  0  0  0  0  0 30 98  0  0  0  0  0  0])
+The 36 x 36 matrix was built in 0.0270436 s.
+Computing the rank of the 36 x 36 matrix took 0.00106832 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.0284688 s.

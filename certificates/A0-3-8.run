@@ -1,0 +1,22 @@
+Using random seed 1739365426 and the finite field with 127 elements
+In the ambient space P^3 x P^8, computing the dimension of the O(1,2) part of the ideal of a collection of double points supported at
+([ 24 109  97 100], [ 7 87 31 79 35 53 85 76 98])
+([50 84 59  4], [112  13  72  65  29 117 118   1  68])
+([  3 100  66 105], [ 10  51 117 122  66 111  49  92  45])
+([  5 124  55  17], [ 40  14  31  43  63  59  81  86 104])
+([80 68 46 43], [ 67  52  99  49  69  50  96 113 112])
+([49 86  9 51], [ 27  58 100   0   6   8  85  16 113])
+([ 84  72  42 118], [118 124 105  84  64  16   1  81   1])
+([74 98 86 14], [ 21 124  44  64  15  73  67  37  31])
+([14 55 56 86], [  0  32 103  29  68  96  14  30  17])
+([15 12  5 15], [  5  44  31  65  40  46  78  31 108])
+([90 12 33 59], [121  82  18 111 123  84  53  23  43])
+([ 3 76 98 84], [ 75  26  48 107  87   7  34  55  35])
+([78 78 27 64], [ 34  41   9  21  44 117  53 109 110])
+([60 14  2 77], [ 27   6 104  94  28 114  18  88 119])
+([97  3 81 74], [101  29 103  69 111 125  64  59  67])
+The 180 x 195 matrix was built in 0.0647699 s.
+Computing the rank of the 180 x 195 matrix took 0.130464 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.195522 s.

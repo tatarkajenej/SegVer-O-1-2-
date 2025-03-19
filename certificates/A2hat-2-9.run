@@ -1,0 +1,24 @@
+Using random seed 1739532674 and the finite field with 127 elements
+In the ambient space P^2 x P^9, computing the dimension of the O(1,2) part of the ideal of a collection of subvarieties given by
+{y_1 = y_2 = y_3 = y_4 = y_5 = y_8 = y_9 = 0}
+{y_6 = y_7 = y_8 = y_9 = 0}
+and double points supported at
+([102 125   1], [55 37 10 33 15 30 90 70 18 22])
+([58 85 25], [ 69  88  30  65  27  20  10 118  19  71])
+([54 72  7], [ 65 126  60  20  68  16  66  76  12  37])
+([ 88  30 116], [97  0  0  0  0  0 83 69  0  0])
+([ 12  75 122], [100   0   0   0   0   0  75 113   0   0])
+([ 99  39 118], [41  0  0  0  0  0 77 90  0  0])
+([58 38  6], [ 95 117  46  25  30  14   0   0   0   0])
+([ 81 118 101], [103  12  88  48  59  17   0   0   0   0])
+([126  67  25], [ 59  25  10 101  87   2   0   0   0   0])
+([84  4  8], [115   9  75  90  40  61   0   0   0   0])
+([64 92 62], [10 54 74 44 69 82  0  0  0  0])
+([ 27 102  40], [ 56 110  31   0  32  15   0   0   0   0])
+([ 6 55 11], [112  61  48  82  72  93   0   0   0   0])
+([15 84 17], [119   0   0   0   0   0   0   0   0   0])
+The 87 x 90 matrix was built in 0.0101409 s.
+Computing the rank of the 87 x 90 matrix took 0.0116127 s.
+The dimension is 0 vs. expected 0
+The configuration is NON-DEFECTIVE (EQUIABUNDANT).
+The entire computation took 0.0220431 s.
