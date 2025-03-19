@@ -37,7 +37,7 @@ If some of the library dependencies are located elsewhere than `/usr/include/` o
 Both executables take four integer arguments and a fifth optional string argument like so:
 > `build/<name> w1 w2 m n [certpath]`
 
-The arguments `w1`, `w2` determine which family of coordinate configurations will be used (see below for details), `m`, `n` specify the ambient P^m x P^n in which the coordinate configuration will be constructed and the optional `certpath` argument is a path specifying where the certificate of the computation should be stored. If omitted, `certpath` defaults to `cert/<name>-w1-w2-m-n.run` (hence they do not mix with or overwrite the presupplied certificates in `certificates`).
+The arguments `w1`, `w2` determine which family of coordinate configurations will be used (see below for details), `m`, `n` specify the ambient $\mathbb P^m \times \mathbb P^n$ in which the coordinate configuration will be constructed and the optional `certpath` argument is a path specifying where the certificate of the computation should be stored. If omitted, `certpath` defaults to `cert/<name>-w1-w2-m-n.run` (hence they do not mix with or overwrite the presupplied certificates in `certificates`).
 
 Note that the input is not currated in any sophisticated way, therefore, bad inputs (e.g., `w1` or `w2` out of range, negative `m` or `n` or an ugly (`m`,`n`) passed to the executable for the nice case or vice versa) may variously result in segmentation faults or errors on failed assert statements.
 
@@ -54,7 +54,7 @@ Both scripts may also be run through make by:
 
 In the nice case, `w1` corresponds to the 'letter' used to designate the family in the paper (i.e. 0 means A, 1 means B, etc. up to 6 means G), whereas `w2` corresponds to the index. For example, `build/nice 3 0 7 111` executes the computation for D_0(7,111).
 
-In the ugly case, `w1` still corresponds to the letter, but starts with 1, i.e. 1 means A up to 4 means D. `w2` no longer corresponds to the index. This is because the parameter functions for most of the families involve quasipolynomial functions, so we implement them internally as two separate families. As a result, the index of the family is the ceiling of (`w2`+1)/2.
+In the ugly case, `w1` still corresponds to the letter, but starts with 1, i.e. 1 means A up to 4 means D. `w2` no longer corresponds to the index. This is because the parameter functions for most of the families involve quasipolynomial functions, so we implement them internally as two separate families. As a result, the index of the family is $\left\lceil\frac{w_2+1}{2}\right\rceil$.
 
 For both cases, the indexing can also be explicitly seen from the dictionary `configuration_names` in the respective python scripts.
 
