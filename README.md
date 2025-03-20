@@ -1,4 +1,8 @@
-These are computations to accompany the paper Secant varieties of Segre-Veronese varieties $\mathbb P^m\times\mathbb P^n$ embedded by $\mathcal O(1,2)$ are non-defective for $n\gg m^3$, $m\geq3$, soon to be published on arXiv.
+These are computations to accompany the paper "Secant varieties of Segre-Veronese varieties $\mathbb P^m\times\mathbb P^n$ embedded by $\mathcal O(1,2)$ are non-defective for $n\gg m^3$, $m\geq3$" (soon to be published on arXiv), written as part of the [TENORS network](https://github.com/tenors-network).
+
+This work has been supported by European Union’s HORIZON–MSCA-2023-DN-JD programme under under 
+the Horizon Europe (HORIZON) Marie Skłodowska-Curie Actions, grant agreement 101120296 (TENORS).
+
 
 Please find the C++ source codes in this directory as well as (instances of) all relevant certificates in the subdirectory `certificates`.
 
@@ -52,9 +56,9 @@ Both scripts may also be run through make by:
 
 ### Indexing of families of coordinate configurations
 
-In the nice case, `w1` corresponds to the 'letter' used to designate the family in the paper (i.e. 0 means A, 1 means B, etc. up to 6 means G), whereas `w2` corresponds to the index. For example, `build/nice 3 0 7 111` executes the computation for D_0(7,111).
+In the nice case, `w1` corresponds to the 'letter' used to designate the family in the paper (i.e. 0 means $A$, 1 means $B$, etc. up to 6 means $G$), whereas `w2` corresponds to the index. For example, `build/nice 3 0 7 111` executes the computation for $D_0(7,111)$.
 
-In the ugly case, `w1` still corresponds to the letter, but starts with 1, i.e. 1 means A up to 4 means D. `w2` no longer corresponds to the index. This is because the parameter functions for most of the families involve quasipolynomial functions, so we implement them internally as two separate families. As a result, the index of the family is $\left\lceil\frac{w_2+1}{2}\right\rceil$.
+In the ugly case, `w1` still corresponds to the letter, but starts with 1, i.e. 1 means $\hat A$ up to 4 means $\hat D$. `w2` no longer corresponds to the index. This is because the parameter functions for most of the families involve quasipolynomial functions, so we implement them internally as two separate families. As a result, the index of the family is $\left\lceil\frac{w_2+1}{2}\right\rceil$.
 
 For both cases, the indexing can also be explicitly seen from the dictionary `configuration_names` in the respective python scripts.
 
