@@ -1,4 +1,4 @@
-These are computations to accompany the paper "Secant varieties of Segre-Veronese varieties $\mathbb P^m\times\mathbb P^n$ embedded by $\mathcal O(1,2)$ are non-defective for $n\gg m^3$, $m\geq3$" (soon to be published on arXiv), written as part of the [TENORS network](https://github.com/tenors-network).
+These are computations to accompany the paper "Secant varieties of Segre-Veronese varieties $\mathbb P^m\times\mathbb P^n$ embedded by $\mathcal O(1,2)$ are non-defective for $n\gg m^3$, $m\geq3$" ([arXiv:2503.21972](https://arxiv.org/abs/2503.21972)), written as part of the [TENORS network](https://github.com/tenors-network).
 
 This work has been supported by European Union’s HORIZON–MSCA-2023-DN-JD programme under under 
 the Horizon Europe (HORIZON) Marie Skłodowska-Curie Actions, grant agreement 101120296 (TENORS).
