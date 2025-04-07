@@ -52,7 +52,7 @@ Both scripts may also be run through make by:
 
 ### Indexing of families of coordinate configurations
 
-In the nice case, `w1` corresponds to the 'letter' used to designate the family in the paper (i.e. 0 means A, 1 means B, etc. up to 6 means G), whereas `w2` corresponds to the index. For example, `build/nice 3 0 7 111` executes the computation for D_0(7,111).
+In the nice case, `w1` corresponds to the 'letter' used to designate the family in the paper (i.e. 0 means A, 1 means B, etc. up to 6 means G), whereas `w2` corresponds to the index. For example, `build/nice 3 0 7 111` executes the computation for $D_0(7,111)$.
 
 In the ugly case, `w1` still corresponds to the letter, but starts with 1, i.e. 1 means A up to 4 means D. `w2` no longer corresponds to the index. This is because the parameter functions for most of the families involve quasipolynomial functions, so we implement them internally as two separate families. As a result, the index of the family is $\left\lceil\frac{w_2+1}{2}\right\rceil$.
 

@@ -1230,8 +1230,8 @@ class CoordConfigFamily {
         vector_t subset(subvarCount);
         std::vector<vector_t> xSubvars;
         std::vector<vector_t> ySubvars;
-        vector_t xdud(m+1); // initialize these two to zero, just for
-        vector_t ydud(n+1); // the purpose of initializing the above two vectors
+        vector_t xdud(mDim+1); // initialize these two to zero, just for
+        vector_t ydud(nDim+1); // the purpose of initializing the above two vectors
         for (int_t k = 0; k < subvarCount; ++k) {
             xSubvars.push_back(xdud);
             ySubvars.push_back(ydud);
